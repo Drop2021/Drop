@@ -3,8 +3,8 @@ import paho.mqtt.client as mqtt
 import parser
 import time, random
 MQTT_ADDRESS  ='172.20.10.2'
-MQTT_USER ='drop2022'
-MQTT_PASSWORD='drop2022#'
+MQTT_USER ='######'
+MQTT_PASSWORD='######'
 MQTT_TOPIC ='home/tank/+'
 value=None
 
@@ -12,9 +12,9 @@ value=None
 serverUrl   = "mqtt.cumulocity.com"
 clientId    = "test"
 device_name = "d1"
-tenant      = "iotccis21"
-username    = "439200704@student.ksu.edu.sa"
-password    = "Deba5590#"
+tenant      = "######"
+username    = "######"
+password    = "######"
 client = mqtt.Client(clientId)
 client.username_pw_set(tenant + "/" + username, password)
 
@@ -30,12 +30,15 @@ def on_connect(client, userdata, flags, rc):
 def on_message(client, userdata, msg):
     """The callback for when a PUBLISH message is received from the server."""
     print(msg.topic + ' ' + str(msg.payload))
-    Dis1,Dis2,Temp,Hum,Level=str(msg.payload).split(",")
+    Dis1,Dis2,Temp,Hum,Level,Quality,HourlyConsumption=str(msg.payload).split(",")
     publish("s/us", "200,c8y_Distance1,D1," +Dis1+",Cm")
     publish("s/us", "200,c8y_Distance2,D2," +Dis2+",Cm")
     publish("s/us", "200,c8y_Temperature,T," +Temp+",C")
     publish("s/us", "200,c8y_Humedity,H," +Hum+",")
     publish("s/us", "200,c8y_level,L," +Level+",")
+    publish("s/us", "200,c8y_Quality,Q," +Quality+",")
+    publish("s/us", "200,c8y_HourlyConsumption,H," +HourlyConsumption+",")
+    
 
 
 
@@ -64,7 +67,7 @@ def main():
 
 
 
-  #
+  
 
     client.connect(serverUrl)
     client.loop_start()
