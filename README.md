@@ -30,7 +30,6 @@ software tools :
 
 
 
-
 to run the project : put the sensors board above the water tank and then install the application 
 
 
