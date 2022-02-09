@@ -25,4 +25,13 @@ software tools :
 
 -python 
 
--MySQL
+-Sqlite 
+
+
+
+
+
+to run the project : put the sensors board above the water tank and then install the application 
+
+
+note : insert the configuration ID provided to you and the tank measurments in the setup page . 
