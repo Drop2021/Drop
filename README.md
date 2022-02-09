@@ -1,4 +1,4 @@
-# Drop  (Mobile application) 
+# Drop  (Mobile Application) 
 
 ### Our project will focus on solving the problem of monitoring the quantity and quality of the water in the tanks of households by displaying the state of the tank for the householders in an organized and simple way , also alert them before the interruption of their water .
 
