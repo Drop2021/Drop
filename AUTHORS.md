@@ -1,28 +1,26 @@
-#Project supervisor: Dr.Balsam Alsugair 
+# Project supervisor: Dr.Balsam Alsugair 
+### Contact by: balsugair@KSU.EDU.SA
 
-Contact by: balsugair@KSU.EDU.SA
+# Project sponsor: Dr.Abdullaziz Alhussien 
+### From Technology Control Co. "TCC"
 
-#Project sponsor: Dr.Abdullaziz Alhussien 
+# Drop team member: 
 
-From Technology Control Co. "TCC"
+## 1-Munirah Alhagbani
+### Leader of the team and developer
+### Contact by: mtalhagbani@gmail.com
 
-#Drop team member: 
+## 2-Deba Alzmami
+### Developer
+### Contact by: debanasser1@gmail.com
 
-#1-Munirah Alhagbani
+## 3-Yara Alsayyari 	
+### Developer 
+### Contact by: yaraalsayyari@gmail.com
 
-Leader of the team and developer , contact by: mtalhagbani@gmail.com
-
-#2-Deba Alzmami
-
-Developer , contact by: debanasser1@gmail.com
-
-#3-Yara Alsayyari 	
-
-Developer , contact by: yaraalsayyari@gmail.com
-
-#4-Latifa AlShammari 
-
-Developer , contact by: Latifayousef0@gmail.com
+## 4-Latifa AlShammari 
+### Developer
+### Contact by: Latifayousef0@gmail.com
 
 
 
